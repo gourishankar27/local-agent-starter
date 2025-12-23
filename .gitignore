@@ -1,0 +1,121 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+wheelhouse/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+.env/
+venv.bak/
+
+# Pyenv
+.python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+.env.*.local
+.env.local
+.env.* 
+
+# Google / OAuth credentials & tokens
+credentials.json
+token.json
+oauth_token.json
+*.credentials
+*.key
+*.pem
+*.p12
+.local_agent_tokens.json
+
+# Playwright / browser state & profiles
+storage_state.json
+playwright_state.json
+user-data-dir/
+chromium-*
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+
+# SQLite and other local DBs
+*.db
+*.sqlite
+*.sqlite3
+
+# Build / distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Sensitive exports / keys
+*.crt
+*.der
+*.pfx
+
+# Mac system files
+.DS_Store
+
+# Misc
+*.env
+credentials/
+secrets/
+secrets.json
+*.bak
+*.old
+
+# Ignore ZIP created by this tool (if any)
+local-agent-starter.zip
+local-agent-starter-with-gitignore.zip
