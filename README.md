@@ -96,3 +96,18 @@ All logs are stored in a single encrypted file in your home directory:
 ```text
 ~/.local_agent_history.enc
 ```
+
+
+## Web UI (Django + React)
+
+This project includes a small web backend (Django) and a React frontend.
+
+### Backend (Django API)
+
+From the repo root:
+
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver  # http://localhost:8000
+```
